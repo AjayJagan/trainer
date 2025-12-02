@@ -28,7 +28,7 @@ spec:
   - name: image-expires-after
     value: 5d
   - name: dockerfile
-    value: cmd/trainer-controller-manager/Dockerfile
+    value: cmd/trainer-controller-manager/Dockerfile.odh
   - name: path-context
     value: .
   pipelineSpec:

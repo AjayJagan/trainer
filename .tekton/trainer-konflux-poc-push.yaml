@@ -25,7 +25,7 @@ spec:
   - name: output-image
     value: quay.io/redhat-user-workloads/open-data-hub-tenant/trainer-konflux-poc:{{revision}}
   - name: dockerfile
-    value: cmd/trainer-controller-manager/Dockerfile
+    value: cmd/trainer-controller-manager/Dockerfile.odh
   - name: path-context
     value: .
   pipelineSpec:
